@@ -62,6 +62,24 @@ import java.util.List;
     public void dashboard_will_appear_with() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
     }
+    @Given("^nnn$")
+    public void nnn() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("nnn");
+    }
+
+    @When("^ggg$")
+    public void ggg() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("ggg");
+    }
+
+    @Then("^hhh$")
+    public void hhh() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("hhh");
+    }
+
 
 
 }
